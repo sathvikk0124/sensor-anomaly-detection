@@ -1,30 +1,30 @@
 # Sensor Anomaly Detection System
 
-🔍 **Statistical anomaly detection system** for sensor data using the **3-sigma rule** with both Python/MongoDB backend and interactive web interface.
+ **Statistical anomaly detection system** for sensor data using the **3-sigma rule** with both Python/MongoDB backend and interactive web interface.
 
-## 🌟 Features
+##  Features
 
 ### Web Dashboard (GitHub Pages)
-- ✅ Interactive, responsive web interface
-- 📊 Real-time data visualization with Chart.js
-- 🎛️ Configurable sigma threshold and time range
-- 📈 Statistical analysis per sensor
-- 🚨 Detailed anomaly detection and reporting
-- 📱 Mobile-friendly design
-- 💾 Sample data generator & JSON file upload
+-  Interactive, responsive web interface
+-  Real-time data visualization with Chart.js
+-  Configurable sigma threshold and time range
+-  Statistical analysis per sensor
+-  Detailed anomaly detection and reporting
+-  Mobile-friendly design
+-  Sample data generator & JSON file upload
 
 ### Python Backend (MongoDB)
-- ✅ MongoDB aggregation pipeline implementation
-- 📊 Statistical analysis (mean, standard deviation)
-- 🔍 3-sigma anomaly detection
-- 🗄️ Sample data generation with realistic sensor profiles
-- ⚙️ Environment-based configuration
+-  MongoDB aggregation pipeline implementation
+-  Statistical analysis (mean, standard deviation)
+-  3-sigma anomaly detection
+-  Sample data generation with realistic sensor profiles
+-  Environment-based configuration
 
-## 🚀 Live Demo
+##  Live Demo
 
 **Web Dashboard:** `https://sathvikk0124.github.io/sensor-anomaly-detection/`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sensor-anomaly-detection/
@@ -38,17 +38,17 @@ sensor-anomaly-detection/
 └── README.md              # This file
 ```
 
-## 🌐 Web Interface Usage
+##  Web Interface Usage
 
 ### Quick Start
 1. Visit: `https://sathvikk0124.github.io/sensor-anomaly-detection/`
 2. Click **"Load Sample Data"** to generate test data
 3. Adjust **Sigma Threshold** (default: 3σ) and **Days Back** (default: 7)
-4. Click **"🚀 Detect Anomalies"**
+4. Click **" Detect Anomalies"**
 5. View results:
-   - 📊 Sensor statistics cards
-   - 📈 Interactive charts
-   - 📋 Detailed anomaly table
+   -  Sensor statistics cards
+   -  Interactive charts
+   -  Detailed anomaly table
 
 ### Upload Your Own Data
 ```json
@@ -61,28 +61,11 @@ sensor-anomaly-detection/
 ]
 ```
 
-## 🐍 Python Backend Setup
+##  Python Backend Setup
 
 ### Prerequisites
 - Python 3.8+
 - MongoDB 4.0+
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/sathvikk0124/sensor-anomaly-detection.git
-cd sensor-anomaly-detection
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure MongoDB
-cp .env.example .env
-# Edit .env with your MongoDB connection string
-```
-
-## 📊 Data Structure
 
 ### Input Format
 
@@ -94,7 +77,7 @@ cp .env.example .env
 }
 ```
 
-## 🧮 The 3-Sigma Rule
+##  The 3-Sigma Rule
 
 **Mathematical Background:**
 
@@ -109,7 +92,7 @@ value > mean + (3 × standard_deviation)
 - Effectively identifies outliers while minimizing false positives
 
 
-## 👤 Author
+##  Author
 
 **sathvikk0124**
 - GitHub: [@sathvikk0124](https://github.com/sathvikk0124)
