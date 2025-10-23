@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Sensor Anomaly Detection using MongoDB Aggregation Pipeline
-Detects sensor readings that are 3 standard deviations above the mean
-"""
 
 import os
 from datetime import datetime, timedelta
